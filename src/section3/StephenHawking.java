@@ -7,13 +7,18 @@ import com.sun.speech.freetts.VoiceManager;
 public class StephenHawking {
 	
 	// 1. make a main method and put steps 2, 3 & 4 inside it
+	public static void main(String[] args) {
+		String name=JOptionPane.showInputDialog("type a sentence");
+	
+		// TODO Auto-generated constructor stub
 	
 	// 4. Use a for loop to repeat steps #2 and #3, a lot of times
 	
 	// 2. ask the user for a sentence
 	
 	// 3. call the speak method below and send it the sentence
-
+speak(name);
+	}
 	
 
 	
